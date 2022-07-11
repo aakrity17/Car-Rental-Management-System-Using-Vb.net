@@ -1,0 +1,441 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FinalCarRentalSystem
+</name>
+</assembly>
+<members>
+<member name="T:FinalCarRentalSystem.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FinalCarRentalSystem.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FinalCarRentalSystem.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:FinalCarRentalSystem.My.Resources.Resources.lykan_hypersport">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.AdminDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.AdminDataSet.AdminDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.AdminDataSet.AdminRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.AdminDataSet.AdminRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.CustomerDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.CustomerDataSet.CustomerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.CustomerDataSet.CustomerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.CustomerDataSet.CustomerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.CustomerDataSetTableAdapters.CustomerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.CustomerDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.CustomerDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalCarRentalSystem.CustomerDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.CustomerDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalCarRentalSystem.CustomerDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.CustomerDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalCarRentalSystem.CustomerDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.CustomerDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.CustomerDataSetTableAdapters.TableAdapterManager.UpdateAll(FinalCarRentalSystem.CustomerDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.CustomerDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.CustomerDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.AdminDataSetTableAdapters.AdminTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.AdminDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.AdminDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalCarRentalSystem.AdminDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.AdminDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalCarRentalSystem.AdminDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.AdminDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalCarRentalSystem.AdminDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.AdminDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.AdminDataSetTableAdapters.TableAdapterManager.UpdateAll(FinalCarRentalSystem.AdminDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.AdminDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.AdminDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ListOfCarsDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ListOfCarsDataSet.ListOfCarsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ListOfCarsDataSet.ListOfCarsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ListOfCarsDataSet.ListOfCarsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ListOfCarsDataSetTableAdapters.ListOfCarsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ListOfCarsDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.ListOfCarsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalCarRentalSystem.ListOfCarsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.ListOfCarsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalCarRentalSystem.ListOfCarsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.ListOfCarsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalCarRentalSystem.ListOfCarsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.ListOfCarsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.ListOfCarsDataSetTableAdapters.TableAdapterManager.UpdateAll(FinalCarRentalSystem.ListOfCarsDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ListOfCarsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ListOfCarsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.RentDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.RentDataSet.RentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.RentDataSet.RentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.RentDataSet.RentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.RentDataSetTableAdapters.RentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.RentDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.RentDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalCarRentalSystem.RentDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.RentDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalCarRentalSystem.RentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.RentDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalCarRentalSystem.RentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.RentDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.RentDataSetTableAdapters.TableAdapterManager.UpdateAll(FinalCarRentalSystem.RentDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.RentDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.RentDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.Rent_DetailsDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.Rent_DetailsDataSet.RentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.Rent_DetailsDataSet.Rent_DetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.Rent_DetailsDataSet.RentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.Rent_DetailsDataSet.Rent_DetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.Rent_DetailsDataSet.RentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.Rent_DetailsDataSet.Rent_DetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.Rent_DetailsDataSetTableAdapters.RentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.Rent_DetailsDataSetTableAdapters.Rent_DetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.Rent_DetailsDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.Rent_DetailsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalCarRentalSystem.Rent_DetailsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.Rent_DetailsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalCarRentalSystem.Rent_DetailsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.Rent_DetailsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalCarRentalSystem.Rent_DetailsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.Rent_DetailsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.Rent_DetailsDataSetTableAdapters.TableAdapterManager.UpdateAll(FinalCarRentalSystem.Rent_DetailsDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.Rent_DetailsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.Rent_DetailsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ReturnDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ReturnDataSet.ReturnDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ReturnDataSet.ReturnRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ReturnDataSet.ReturnRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ReturnDataSetTableAdapters.ReturnTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ReturnDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.ReturnDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalCarRentalSystem.ReturnDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.ReturnDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FinalCarRentalSystem.ReturnDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.ReturnDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FinalCarRentalSystem.ReturnDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.ReturnDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:FinalCarRentalSystem.ReturnDataSetTableAdapters.TableAdapterManager.UpdateAll(FinalCarRentalSystem.ReturnDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ReturnDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:FinalCarRentalSystem.ReturnDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

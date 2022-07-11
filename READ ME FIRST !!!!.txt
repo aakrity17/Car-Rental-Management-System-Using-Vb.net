@@ -1,0 +1,22 @@
+CAR RENTAL SYSTEM IN VB.NET
+
+
+USERNAME : admin
+
+PASSWORD : admin
+
+
+>> Change Database directory in LogIn.vb from F:\Sem.4\extra vs code\CarRentalSystem\FinalCarRentalSystem\CarRentalSystem1.mdb
+   To your Own !!
+[without changing, the system won't work]
+
+>> Database File is inside : \Car Rental System VB.NET\CarRentalSystem\FinalCarRentalSystem\CarRentalSystem1.mdf 
+
+
+***** IF YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, FEEL FREE TO CONTACT US *****  
+
+
+***** LEAVE A COMMENT IF YOU LOVED OUR WORK *****
+
+
+THANK YOU FOR DOWNLOADING :) 

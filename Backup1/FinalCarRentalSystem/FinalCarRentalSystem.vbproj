@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D4ADAA9-E51F-48B9-AC76-7E750605327D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>FinalCarRentalSystem.My.MyApplication</StartupObject>
+    <RootNamespace>FinalCarRentalSystem</RootNamespace>
+    <AssemblyName>FinalCarRentalSystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FinalCarRentalSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FinalCarRentalSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.NET\Framework64\v2.0.50727\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDataSet.vb">
+      <DependentUpon>CustomerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddCar.Designer.vb">
+      <DependentUpon>AddCar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddCar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdminDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddAdmin.Designer.vb">
+      <DependentUpon>AddAdmin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Booking.Designer.vb">
+      <DependentUpon>Booking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Booking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Booking1.Designer.vb">
+      <DependentUpon>Booking1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Booking1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Borrowed_Details.Designer.vb">
+      <DependentUpon>Borrowed_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Borrowed_Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Customers.Designer.vb">
+      <DependentUpon>Customers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Customers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmReturn.Designer.vb">
+      <DependentUpon>frmReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ListOfCars.Designer.vb">
+      <DependentUpon>ListOfCars.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ListOfCars.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Returned_Details.Designer.vb">
+      <DependentUpon>Returned_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Returned_Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOfCarsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListOfCarsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LogIn.Designer.vb">
+      <DependentUpon>LogIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LogIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main_Form.Designer.vb">
+      <DependentUpon>Main_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RentDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Rent_DetailsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rent_DetailsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Rent_DetailsDataSet.vb">
+      <DependentUpon>Rent_DetailsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReturnDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnDataSet.vb">
+      <DependentUpon>ReturnDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\AddAdmin.resx">
+      <DependentUpon>AddAdmin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddCar.resx">
+      <DependentUpon>AddCar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Booking.resx">
+      <DependentUpon>Booking.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Booking1.resx">
+      <DependentUpon>Booking1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Borrowed_Details.resx">
+      <DependentUpon>Borrowed_Details.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Customers.resx">
+      <DependentUpon>Customers.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmReturn.resx">
+      <DependentUpon>frmReturn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ListOfCars.resx">
+      <DependentUpon>ListOfCars.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LogIn.resx">
+      <DependentUpon>LogIn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main_Form.resx">
+      <DependentUpon>Main_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Returned_Details.resx">
+      <DependentUpon>Returned_Details.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AdminDataSet.xsc">
+      <DependentUpon>AdminDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AdminDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AdminDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AdminDataSet.xss">
+      <DependentUpon>AdminDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="app.config" />
+    <None Include="CustomerDataSet.xsc">
+      <DependentUpon>CustomerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CustomerDataSet.xss">
+      <DependentUpon>CustomerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ListOfCarsDataSet.xsc">
+      <DependentUpon>ListOfCarsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ListOfCarsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ListOfCarsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ListOfCarsDataSet.xss">
+      <DependentUpon>ListOfCarsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="RentDataSet.xsc">
+      <DependentUpon>RentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RentDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RentDataSet.xss">
+      <DependentUpon>RentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Rent_DetailsDataSet.xsc">
+      <DependentUpon>Rent_DetailsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Rent_DetailsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Rent_DetailsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Rent_DetailsDataSet.xss">
+      <DependentUpon>Rent_DetailsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ReturnDataSet.xsc">
+      <DependentUpon>ReturnDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ReturnDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReturnDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReturnDataSet.xss">
+      <DependentUpon>ReturnDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CarRentalSystem1.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
